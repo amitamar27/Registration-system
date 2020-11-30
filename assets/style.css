@@ -1,1 +1,50 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 140px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: aliceblue;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-size: 35px;
+}
+
+.form-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.form-list__container {
+  line-height: 28px;
+}
+
+label {
+  display: block;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 31px;
+  padding: 3px 11px;
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */

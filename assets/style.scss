@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+ }
+
+
+.header{
+    display: flex;
+    justify-content: center;
+    height: 140px;
+    align-items: center;
+    background: aliceblue;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    font-size: 35px;
+}
+    
+
+.form-list{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.form-list__container{
+    line-height: 28px;
+}
+
+label{
+    display: block;
+}
+
+button{
+    display: block;
+    margin: 0 auto;
+    margin-top: 31px;
+    padding: 3px 11px;
+    cursor: pointer;
+}
+
+
+
+
+
+
